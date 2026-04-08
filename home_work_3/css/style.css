@@ -1,0 +1,45 @@
+p {
+	color: orange;
+}
+
+.text {
+	color: blue;
+}
+
+#some-id {
+	color: red;
+}
+
+.text,
+.title {
+	color: green;
+}
+
+.text {
+	font-size: 20px;
+}
+.title {
+	font-size: 50px;
+}
+
+.article a {
+	color: orange;
+	text-decoration: underline;
+}
+.article .text {
+	margin-bottom: 10px;
+}
+.article .sub-title {
+	color: green;
+} 
+
+.article + p {
+	color: green;
+}
+
+[title] {
+	color: blue;
+}
+.link {
+	color: yellowgreen;
+}
